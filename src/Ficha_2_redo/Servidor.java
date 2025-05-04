@@ -22,8 +22,6 @@ public class Servidor {
                 os.writeObject("Servidor: Conexão estabelecida");
                 os.flush();
 
-                // ... resto do código igual
-
                 String tipo = (String) is.readObject();
                 System.out.println("Tipo cliente: " + tipo);
 
